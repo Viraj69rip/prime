@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="prime">
+        <nav>
+            <img src="logo.png" class="logo">
+            <a href="c:\all coding projects\all html programs\payment gateway\index.html" class="btn">Try Prime</a>
+        </nav>
+        <div class="content">
+            
+            <h1>THE PRIME</h1>
+           &nbsp; <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat reiciendis distinctio omnis, <br> ad iste enim, asperiores est a assumenda nam. Accusantium animi tempore mollitia.<br>      Libero ducimus maiores totam dolorum.</p>
+            <h3>Choose your Flavour</h3>
+            <div class="colour-select">
+
+                <div id="red"></div>
+                <div id="blue"></div>
+                <div id="green"></div>  
+                <div id="yellow"></div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        let redBtn = document.getElementById("red")
+        let blueBtn = document.getElementById("blue")
+        let greenBtn = document.getElementById("green")
+        let yellowBtn = document.getElementById("yellow")
+        let prime = document.getElementById("prime")
+
+        
+        redBtn.onclick = function(){
+           prime.style.backgroundImage = "url(blue.jpg)"
+        }
+
+      blueBtn.onclick = function(){
+           prime.style.backgroundImage = "url(red.png)"
+        }
+
+        greenBtn.onclick = function(){
+           prime.style.backgroundImage = "url(green.jpg)"
+        }
+        
+      yellowBtn.onclick = function(){
+           prime.style.backgroundImage = "url(yellow.png)"
+        }
+    
+    </script>
+</body>
+</html>
